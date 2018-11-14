@@ -10,6 +10,10 @@ spring:
           search-paths: repo
           username: ganyiwelldone@gmail.com
           password: gy542189475
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
 
   zipkin:
     base-url: http://localhost:9411

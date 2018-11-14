@@ -5,7 +5,10 @@ spring:
     base-url: zipkin:http://localhost:9411
   main:
     allow-bean-definition-overriding: true
-
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
 server:
   port: 8769
 
