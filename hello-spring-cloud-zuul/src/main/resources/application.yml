@@ -3,6 +3,8 @@ spring:
     name: hello-spring-cloud-zuul
   zipkin:
     base-url: zipkin:http://localhost:9411
+  main:
+    allow-bean-definition-overriding: true
 
 server:
   port: 8769
