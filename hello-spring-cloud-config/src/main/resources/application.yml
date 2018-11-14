@@ -7,7 +7,7 @@ spring:
       server:
         git:
           uri: https://github.com/gannyee/spring-cloud-config.git
-          search-paths: respo
+          search-paths: repo
           username: ganyiwelldone@gmail.com
           password: gy542189475
 
