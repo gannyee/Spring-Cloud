@@ -41,7 +41,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <!--程序入口 必须-->
-                    <mainClass>com.gannyee.hello.spring.cloud.eureka.EurekaApplication</mainClass>
+                    <mainClass>com.gannyee.hello.spring.cloud.zipkin.eureka.EurekaApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
