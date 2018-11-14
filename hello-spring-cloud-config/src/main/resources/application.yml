@@ -3,10 +3,10 @@ spring:
     name: hello-spring-cloud-config
   cloud:
     config:
-      label: develop
+      label: master
       server:
         git:
-          uri: https://github.com/gannyee/Spring-Cloud/
+          uri: https://github.com/gannyee/spring-cloud-config.git
           search-paths: respo
           username: ganyiwelldone@gmail.com
           password: gy542189475
