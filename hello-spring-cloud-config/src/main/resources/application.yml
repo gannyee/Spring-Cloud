@@ -3,13 +3,13 @@ spring:
     name: hello-spring-cloud-config
   cloud:
     config:
-      label: master
+      label: develop
       server:
         git:
-          uri: https://github.com/topsale/spring-cloud-config
+          uri: https://github.com/gannyee/Spring-Cloud/
           search-paths: respo
-          username:
-          password:
+          username: ganyiwelldone@gmail.com
+          password: gy542189475
 
 server:
   port: 8888
